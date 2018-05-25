@@ -11,4 +11,4 @@ Before we can run the installation scripts which are located in the `scripts/` d
 Set-ExecutionPolicy Bypass -Scope Process -Force
 ```
 
-After that, we can execute the installation scripts either one after another with `./scripts/0_install_chocolatey.ps1` for example.
+Then we need to install `chocolatey` with `./scripts/0_install_chocolatey.ps1`. After that, we can execute the remaining installation scripts one after another. Their order as suggerated by the file name should be followed.
