@@ -23,7 +23,7 @@ choco install virtualbox
 choco install vboxguestadditions.install
 choco install vagrant
 choco install git
-choco install github
+choco install github-desktop
 choco install winscp
 choco install nodejs
 choco install yarn
@@ -42,10 +42,10 @@ choco install netbeans
 choco install phpstorm
 
 ECHO Installing gaming applications
-choco install steam
-choco install origin
+choco install --ignore-checksums steam
+choco install --ignore-checksums origin
 choco install uplay
-choco install msiafterburner
+choco install --ignore-checksums msiafterburner
 
 ECHO Configuring chocolatey
 choco feature disable -n allowGlobalConfirmation
