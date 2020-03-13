@@ -15,6 +15,10 @@ choco install pdf24
 choco install office365business
 choco install adobereader --package-parameters "/NoUpdates"
 
+Write-Output "Installing enthusiast application..."
+choco install gpu-z
+choco install msiafterburner
+
 Write-Output "Installing developer applications..."
 choco install conemu
 choco install keepass
@@ -47,7 +51,6 @@ choco install steam
 choco install origin
 choco install epicgameslauncher
 choco install uplay
-choco install msiafterburner
 
 Write-Output "Configuring chocolatey..."
 choco feature disable -n allowGlobalConfirmation
